@@ -40,7 +40,7 @@ include ('conexao.php');
                             <input name='busca' type='hidden' id='busca' value='$iId'>
                             <input type='image' title='Abrir' src='imagens/iconabrir.jpg' value='submit'>
                         </form>
-                        <form id='formExcluir' name='formExcluir' method='post' action='processa_excluir_tarefa.php'>
+                        <form id='formExcluir' name='formExcluir' method='post' action='processa_exclusao_tarefa.php'>
                             <input name='id_deleta' type='hidden' id='id_deleta' value='$iId' />
                             <input type='image' title='Excluir Tarefa' src='imagens/excluir.jpg' value='submit'  />
                         </form>
