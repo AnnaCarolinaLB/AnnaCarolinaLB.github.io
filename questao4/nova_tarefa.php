@@ -3,7 +3,7 @@
         <title>Tarefas</title>
     </head>
     <body>
-        <form id="formNovaTarefa" name="formNovaTarefa" method="post" action="processa_novatarefa.php">
+        <form id="formNovaTarefa" name="formNovaTarefa" method="post" action="processa_nova_tarefa.php">
             <p><strong>Descrição da Tarefa:</strong></p>
             <p>
                <textarea name="tarefa" cols="80" rows="10" id="tarefa"></textarea>
